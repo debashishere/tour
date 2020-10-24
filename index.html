@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tour-project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="quote-form-style.css" />
+  <link rel="stylesheet" href="social-media-style.css" />
+  <link rel="stylesheet" href="popup-modal.css" />
+  <script src="script.js" defer></script>
+</head>
+
+
+<body>
+  <!--header-->
+  <header>
+    <!-- Pre-nav-->
+    <div class="prenav">
+      <div class="prenav-left">
+        <ul>
+          <li class="prenav-item">
+            <i class="fa fa-envelope pr-5 pl-10"></i>
+            <a hreg="#">sales@example.com</a>
+          </li>
+          <li class="prenav-item">
+            <span class="whatsapp-logo"><i class="fas fa-anchor"></i></span>
+            <a href="tel:">7003637367</a>
+          </li>
+        </ul>
+      </div>
+      <div class="prenav-right">
+        <ul>
+          <li class="prenav-item"><a href="About-us">About Us</a></li>
+          <li class="prenav-item"><a href="Enquiry">Enquiry Now</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--end-of-header-->
+
+    <!-- Nav-->
+    <nav>
+      <div class="long-nav">
+        <ul>
+          <li class="logo"><i class="fas fa-swimming-pool"></i></li>
+          <li class="burger"><i class="fas fa-bars"></i></li>
+        </ul>
+      </div>
+      <ul class="container">
+        <li><i class="close-btn">&times;</i></li>
+        <li><a href="#"><i class="fa fa-home" id="home"></i></a></li>
+        <li><a href="#">Himachal Tour</a>
+          <ul class="dropdown">
+            <li><a href="#">Himachal By cab</a></li>
+            <li><a href="#">Himachal By volvo</a></li>
+          </ul>
+        </li>
+        <li><a href="">Honeymoon Tour</a></li>
+        <li><a href="">Adventure & Trekking</a></li>
+        <li><a href="">Himachal Attraction</a></li>
+        <li><a href="">Rent a Cab</a></li>
+        <li><a class="galary" href="">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="nav-overlay"></div>
+  </header>
+
+  <!-- Banner-->
+  <div class="banner">
+  </div>
+
+  <!-- Quote form -->
+  <div class="form-container">
+    <div class="quote-text">
+      <h1><span class="blinking">GET FREE QUOTES</span></h1>
+    </div>
+    <form action="#" class="quote-form" method="GET">
+      <div>
+        <input type="text" class="input arrival-date" placeholder="*Arrival Date" onfocus="(this.type='date')"
+          onblur=" (this.type='text' )">
+      </div>
+      <div>
+        <input type="email" class="input" placeholder="Name*">
+      </div>
+      <div>
+        <input type="email" class="input" placeholder="Email*">
+      </div>
+      <div>
+        <input type="tel" class="input" placeholder="Phone*">
+      </div>
+      <div>
+        <input type="text" class="input send-details" placeholder="*Please send your Tour Details">
+      </div>
+      <div>
+        <button type="submit" id="quote-btn">SEND YOUR QUERY</button>
+      </div>
+    </form>
+  </div>
+  </div>
+  </div>
+
+  <!-- Social-media-icons-->
+  <section class="share-container">
+    <ul class="share-icons">
+      <li class="icon" id="share-icon">
+        <a href="javascript:void(0)">
+          <img src="images/share.png" alt="share-icon" />
+        </a>
+      </li>
+      <li class="icon icon-1">
+        <a href="javascript:void(0)">
+          <img src="images/twitter.png" alt="share-icon" />
+        </a>
+      </li>
+      <li class="icon icon-2">
+        <a href="javascript:void(0)">
+          <img src="images/fb.png" alt="share-icon" />
+        </a>
+      </li>
+      <li class="icon icon-3">
+        <a href="javascript:void(0)">
+          <img src="images/whatsapp.png" alt="share-icon" />
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- end-of-social-media-->
+
+  <!-- heading-->
+  <div class="heading">
+    <h1>Himachal Adventure & Trekking Tour</h1>
+    <p>Packages for Best-Selling Destination in India</p>
+    <div class="separator"></div>
+  </div>
+
+  <!-- Package Conatainer -->
+  <div class="package-container">
+
+    <!-- Single Package-->
+    <!-- <div class="package">
+      <div class="package-img">
+        <img src="packages-img/rohtang-pass-tour.jpg" alt="" />
+      </div>
+      <div class="img-text">
+        <h2>Manali Rohtang Pass Adventure Tour Package</h2>
+      </div>
+      <div class="package-price">
+        <h2><span>Duration :</span> 04 Nights / 05 Days</h2>
+        <h2><span>Destinations :</span> Delhi-Manali-Hampta Pass-Delhi</h2>
+        <h1>INR : 3999/-</h1>
+        <hr />
+      </div>
+      <ul class="package-icons">
+        <li>
+          <figure class="flight">
+            <img src="packages-img/flight-icon.png" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="packages-img/hotel-icon.png" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="packages-img/sightseeing-icon.png" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="packages-img/meals-icon.png" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="packages-img/transfer-icon.png" />
+          </figure>
+        </li>
+      </ul>
+      <div class="lower-hr">
+        <hr />
+      </div>
+      <div class="package-inclusion">
+        <h3>PACKAGE INCLUSION:</h3>
+        <ul class="inclusion-desc">
+          <li>03 Days Hotel Accomodation</li>
+          <li>Breakfast & Dinner as per Itinerary</li>
+        </ul>
+        <a href="#">[+]Read More</a>
+      </div>
+      <div class="enquire-btn">
+        <button type="button">Enquire Now</button>
+      </div>
+    </div> -->
+    <!-- End of single package-->
+  </div>
+  <!-- end of Package-container-->
+
+  <!-- Popup model -->
+  <div class="modal-container">
+    <div class="modal-img">
+      <img src="images/popup.jpg" />
+    </div>
+    <div class="modal-desc">
+      <div class="modal-heading">
+        <h1>Submit Your Details and Get 2000/- Discount Voucher</h1>
+      </div>
+      <div class="modal-form">
+        <form class="modal-input">
+          <div class="modal-form-input first">
+            <input type="text" id="date" onfocus="(this.type='date')" onblur="(this.type='text')"
+              placeholder="Arrival Date" />
+            <input type="text" id="name" placeholder="Name" />
+          </div>
+          <div class="modal-form-input second">
+            <input type="email" id="email" placeholder="Email id" />
+            <input type="tel" id="number" placeholder="Phone" />
+          </div>
+        </form>
+        <button id="get-this" type="button">GET THIS OFFER</button>
+        <button id="no-thanks" type="button">No Thanks</button>
+      </div>
+    </div>
+
+  </div>
+  <div class="overlay"></div>
+  <!-- End of Popup Modal-->
+
+  <!-- Footer-->
+  <footer class="footer-container">
+    <div class="contact">
+      <h1>Contact Us</h1>
+      <ul>
+        <li class="address">
+          <p><span>Himachal Trip Package<br>(A Unit of Minto Holidays)</span><br>
+            Office No. &05 Suneja Tower-2 District Center,<br>
+            Janak Puri New Delhi 110058</p>
+        </li>
+        <li class="phone">
+          <p> +91-9711108591</p>
+        </li>
+        <li>
+          <p>sales@mintoholidays.com</p>
+        </li>
+      </ul>
+    </div>
+    <div class="links">
+      <h1>Important Links</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Himachal Honeymoon Tours</a></li>
+        <li><a href="#">Himachal Adventure & Trekking Tour</a></li>
+        <li><a href="#">Himachal Attraction</a></li>
+        <li><a href="#">Enquiry Now</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="services">
+      <ul>
+        <h1>Our Services</h1>
+        <li><a href="#">Rent A Car</a></li>
+        <li><a href="#">Hotels Booking</a></li>
+        <li><a href="#">Air Ticketing</a></li>
+        <li><a href="#">Cruise Booking</a></li>
+        <li><a href="#">Passport Visa</a></li>
+        <li><a href="#">Travel Insurance</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>Copyright © 2020. All Right Reserved. Himachal Trip Package.</p>
+  </div>
+  <!-- End of footer -->
+
+</body>
+
+</html>

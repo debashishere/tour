@@ -1,0 +1,81 @@
+const packages =    [
+    {
+        id: 1,
+        image: "packages-img/rohtang-pass-tour.jpg",
+        title: "Manali Rohtang Pass Adventure Tour Package",
+        duration: "04 Nights / 05 Days",
+        destination: "Delhi-Manali-Hampta Pass-Delhi",
+        price: 3999,
+        package-inclusion: {
+            accomodation: "03 Days Hotel Accomodation",
+            food: "Breakfast & Dinner as per Itinerary",
+        },
+        
+    },
+        {
+        id: 2,
+        image: "packages-img/hampta-pass.jpg",
+        title: "Manali Hampta Pass Adventure Tour Package",
+        duration: "04 Nights / 05 Days",
+        destination: "Delhi-Manali-Hampta Pass-Delhi",
+        price: 4650,
+        package-inclusion: {
+            accomodation: "03 Days Hotel Accomodation",
+            food: "Breakfast & Dinner as per Itinerary",
+        },
+        
+    },
+        {
+        id: 3,
+        image: "packages-img/kufro-adventure-tour.jpg",
+        title: "Shimla kufro Adventure Tour Package",
+        duration: "04 Nights / 05 Days",
+        destination: "Delhi-Shimla-Kufri-Delhi",
+        price: 4800,
+        package-inclusion: {
+            accomodation: "03 Days Hotel Accomodation",
+            food: "Breakfast & Dinner as per Itinerary",
+        },
+        
+    },
+        {
+        id: 4,
+        image: "packages-img/kasol-trekking-tour.jpg",
+        title: "Kasol Trekking Tour Package",
+        duration: "03 Nights / 04 Days",
+        destination: "Delhi-Kasol-Delhi",
+        price: 5850,
+        package-inclusion: {
+            accomodation: "03 Days Hotel Accomodation",
+            food: "Breakfast & Dinner as per Itinerary",
+        },
+        
+    },
+        {
+        id: 5,
+        image: "packages-img/tosh-trek.jpg",
+        title: "Kasol-Kheerganga-Tosh Adventure Tour Package",
+        duration: "04 Nights / 05 Days",
+        destination: "Delhi-Kasol-Delhi-Delhi",
+        price: 6500,
+        package-inclusion: {
+            accomodation: "04 Days Hotel Accomodation",
+            food: "Breakfast & Dinner as per Itinerary",
+        },
+        
+    },
+        {
+        id: 6,
+        image: "malana-trek",
+        title: "Kasol-Malana Trekking Tour Package",
+        duration: "04 Nights / 05 Days",
+        destination: "Delhi-Kasol-Malana - Delhi",
+        price: 7000,
+        package-inclusion: {
+            accomodation: "04 Days Hotel Accomodation",
+            food: "Breakfast & Dinner as per Itinerary",
+        },
+        
+    },
+
+];
